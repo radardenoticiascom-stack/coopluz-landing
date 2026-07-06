@@ -72,8 +72,10 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 // =============================
 
 function calcular() {
+    alert("A função calcular() está funcionando!");
+}
 
-    const valor = parseFloat(document.getElementById("valor").value);
+    
 
     if (isNaN(valor) || valor <= 0) {
         alert("Informe um valor válido para a conta de energia.");
