@@ -1,36 +1,3 @@
-// MENU FIXO
-
-window.addEventListener("scroll", () => {
-    const header = document.querySelector("header");
-
-    if(window.scrollY > 50){
-        header.classList.add("ativo");
-    }else{
-        header.classList.remove("ativo");
-    }
-});
-
-// SCROLL SUAVE
-
-document.querySelectorAll('a[href^="#"]').forEach(link=>{
-
-    link.addEventListener("click",function(e){
-
-        e.preventDefault();
-
-        const destino=document.querySelector(this.getAttribute("href"));
-
-        if(destino){
-
-            destino.scrollIntoView({
-                behavior:"smooth"
-            });
-
-        }
-
-    });
-
-});
 // =============================
 // HEADER AO ROLAR
 // =============================
@@ -72,10 +39,9 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 // =============================
 
 function calcular() {
-    alert("A função calcular() está funcionando!");
-}
 
-    
+    const valorInput = document.getElementById("valor");
+    const valor = parseFloat(valorInput.value.replace(",", "."));
 
     if (isNaN(valor) || valor <= 0) {
         alert("Informe um valor válido para a conta de energia.");
@@ -123,9 +89,9 @@ function calcular() {
     const mensagem =
 `Olá! Fiz uma simulação no site da CoopLuz.
 
-💡 Valor da minha conta: ${valor.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}
+💡 Valor da minha conta: ${valor.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
 
-💰 Economia estimada por mês: ${economiaMensal.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}
+💰 Economia estimada por mês: ${economiaMensal.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}
 
 Gostaria de receber uma proposta.`;
 
@@ -133,7 +99,6 @@ Gostaria de receber uma proposta.`;
         "https://wa.me/5562992686860?text=" +
         encodeURIComponent(mensagem);
 
-}
 }
 
 // =============================
