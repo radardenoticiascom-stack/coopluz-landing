@@ -71,28 +71,67 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 // CALCULADORA DE ECONOMIA
 // =============================
 
-function calcularEconomia() {
+function calcular() {
 
-    const conta = parseFloat(document.getElementById("conta").value);
+    const valor = parseFloat(document.getElementById("valor").value);
 
-    if (isNaN(conta) || conta <= 0) {
-
-        alert("Digite um valor válido.");
-
+    if (isNaN(valor) || valor <= 0) {
+        alert("Informe um valor válido para a conta de energia.");
         return;
-
     }
 
-    const economia = conta * 0.20;
+    // Economia de 20%
+    const economiaMensal = valor * 0.20;
+    const economiaAnual = economiaMensal * 12;
+    const economiaCincoAnos = economiaAnual * 5;
 
-    const novaConta = conta - economia;
+    // Estimativa de consumo
+    const tarifaMedia = 0.85;
+    const consumoMensal = valor / tarifaMedia;
 
-    document.getElementById("resultado").innerHTML =
-        "<h3>Resultado da Simulação</h3>" +
-        "<p><strong>Conta Atual:</strong> R$ " + conta.toFixed(2) + "</p>" +
-        "<p><strong>Economia Estimada:</strong> R$ " + economia.toFixed(2) + "</p>" +
-        "<p><strong>Nova Conta:</strong> R$ " + novaConta.toFixed(2) + "</p>";
+    // Economia de energia
+    const energiaEconomizadaAno = (consumoMensal * 0.20) * 12;
 
+    // Fator médio de emissão da rede elétrica brasileira
+    const fatorCO2 = 0.0385;
+
+    const co2 = energiaEconomizadaAno * fatorCO2;
+
+    document.getElementById("mes").innerHTML =
+        economiaMensal.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL"
+        });
+
+    document.getElementById("ano").innerHTML =
+        economiaAnual.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL"
+        });
+
+    document.getElementById("cincoAnos").innerHTML =
+        economiaCincoAnos.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL"
+        });
+
+    document.getElementById("co2").innerHTML =
+        co2.toFixed(1) + " kg";
+
+    const mensagem =
+`Olá! Fiz uma simulação no site da CoopLuz.
+
+💡 Valor da minha conta: ${valor.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}
+
+💰 Economia estimada por mês: ${economiaMensal.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}
+
+Gostaria de receber uma proposta.`;
+
+    document.getElementById("whatsapp").href =
+        "https://wa.me/5562992686860?text=" +
+        encodeURIComponent(mensagem);
+
+}
 }
 
 // =============================
