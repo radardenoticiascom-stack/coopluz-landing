@@ -1,0 +1,16 @@
+{
+  "name": "CoopLuz",
+  "short_name": "CoopLuz",
+  "description": "Economize na sua conta de energia com a CoopLuz.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d8f49",
+  "icons": [
+    {
+      "src": "assets/logo/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
