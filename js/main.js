@@ -126,6 +126,57 @@ Gostaria de receber uma proposta.`;
 }
 
 // =============================
+// FORMULÁRIO DE CONTATO (WEB3FORMS)
+// =============================
+
+const leadForm = document.getElementById("leadForm");
+const formStatus = document.getElementById("formStatus");
+
+if (leadForm) {
+
+    leadForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const botao = leadForm.querySelector("button[type='submit']");
+        const textoOriginal = botao.textContent;
+
+        botao.disabled = true;
+        botao.textContent = "Enviando...";
+        formStatus.textContent = "";
+        formStatus.className = "form-status";
+
+        const dados = new FormData(leadForm);
+
+        fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: { "Accept": "application/json" },
+            body: dados
+        })
+        .then(res => res.json())
+        .then(resultado => {
+            if (resultado.success) {
+                formStatus.textContent = "Solicitação enviada com sucesso! Em breve entraremos em contato.";
+                formStatus.classList.add("sucesso");
+                leadForm.reset();
+            } else {
+                formStatus.textContent = "Não foi possível enviar. Tente novamente ou fale pelo WhatsApp.";
+                formStatus.classList.add("erro");
+            }
+        })
+        .catch(() => {
+            formStatus.textContent = "Erro de conexão. Tente novamente ou fale pelo WhatsApp.";
+            formStatus.classList.add("erro");
+        })
+        .finally(() => {
+            botao.disabled = false;
+            botao.textContent = textoOriginal;
+        });
+
+    });
+
+}
+
+// =============================
 // ANIMAÇÃO AO ENTRAR NA TELA
 // =============================
 
