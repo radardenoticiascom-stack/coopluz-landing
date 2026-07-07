@@ -437,7 +437,7 @@ nav a:hover{
 
 .segmentos{
     padding:90px 0;
-    background-image:url('fundo.jpg');
+    background-image:url('imagens/fundo.jpg');
     background-size:cover;
     background-position:center;
     position:relative;
@@ -528,14 +528,10 @@ grid-template-columns:1fr;
 .logos img{
     max-width:150px;
     margin:auto;
-    filter:grayscale(100%);
-    opacity:.8;
     transition:.3s;
 }
 
 .logos img:hover{
-    filter:none;
-    opacity:1;
     transform:scale(1.05);
 }
 
@@ -638,6 +634,20 @@ grid-template-columns:1fr;
 
 .contato button:hover{
     background:var(--verde2);
+}
+
+.form-status{
+    text-align:center;
+    font-weight:600;
+    min-height:20px;
+}
+
+.form-status.sucesso{
+    color:var(--verde);
+}
+
+.form-status.erro{
+    color:#c0392b;
 }
 
 /* ======================================
