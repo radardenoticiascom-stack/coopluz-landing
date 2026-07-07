@@ -13,6 +13,30 @@ window.addEventListener("scroll", function () {
 });
 
 // =============================
+// MENU HAMBÚRGUER (MOBILE)
+// =============================
+
+const menuToggle = document.getElementById("menuToggle");
+const menuLista = document.getElementById("menuLista");
+
+if (menuToggle && menuLista) {
+
+    menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("ativo");
+        menuLista.classList.toggle("ativo");
+    });
+
+    // Fecha o menu ao clicar em qualquer link
+    menuLista.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+            menuToggle.classList.remove("ativo");
+            menuLista.classList.remove("ativo");
+        });
+    });
+
+}
+
+// =============================
 // SCROLL SUAVE
 // =============================
 
