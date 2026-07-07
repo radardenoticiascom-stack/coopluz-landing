@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Política de Privacidade | CoopLuz</title>
+
+<meta name="description" content="Política de Privacidade da CoopLuz - saiba como tratamos seus dados pessoais em conformidade com a LGPD.">
+<meta name="robots" content="noindex, follow">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/x-icon" href="/icones/favicon.ico">
+<meta name="theme-color" content="#0b3d91">
+
+<style>
+.legal{
+    max-width:800px;
+    margin:auto;
+    padding:160px 20px 100px;
+    line-height:1.8;
+}
+.legal h1{
+    font-size:36px;
+    color:var(--verde);
+    margin-bottom:10px;
+}
+.legal .atualizado{
+    color:#777;
+    font-size:14px;
+    margin-bottom:40px;
+}
+.legal h2{
+    font-size:22px;
+    color:var(--texto);
+    margin-top:35px;
+    margin-bottom:12px;
+}
+.legal p, .legal li{
+    color:#444;
+    margin-bottom:12px;
+}
+.legal ul{
+    padding-left:22px;
+}
+.legal a{
+    color:var(--verde);
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+
+<nav>
+
+<a href="index.html" class="logo">
+<img src="Icones/logo/logo-coopluz-header.png" alt="CoopLuz">
+</a>
+
+<ul id="menuLista">
+<li><a href="index.html">Voltar ao site</a></li>
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<main class="legal">
+
+<h1>Política de Privacidade</h1>
+<p class="atualizado">Última atualização: julho de 2026</p>
+
+<p>
+A CoopLuz respeita a sua privacidade e está comprometida em proteger os dados pessoais coletados
+através deste site, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD).
+</p>
+
+<h2>1. Quais dados coletamos</h2>
+<p>Ao preencher o formulário de simulação em nosso site, podemos coletar:</p>
+<ul>
+<li>Nome completo</li>
+<li>Cidade</li>
+<li>E-mail</li>
+<li>Número de WhatsApp/telefone</li>
+<li>Mensagens enviadas voluntariamente</li>
+</ul>
+
+<h2>2. Para que usamos seus dados</h2>
+<p>Utilizamos as informações fornecidas exclusivamente para:</p>
+<ul>
+<li>Entrar em contato para apresentar sua simulação de economia de energia</li>
+<li>Esclarecer dúvidas sobre nossos serviços</li>
+<li>Enviar propostas comerciais relacionadas ao serviço solicitado</li>
+</ul>
+<p>Não vendemos, alugamos ou compartilhamos seus dados com terceiros para fins de marketing não relacionados aos nossos serviços.</p>
+
+<h2>3. Cookies</h2>
+<p>
+Este site pode utilizar cookies e tecnologias similares para melhorar a experiência de navegação,
+como lembrar preferências de exibição. Você pode desativar os cookies nas configurações do seu navegador,
+embora isso possa afetar algumas funcionalidades do site.
+</p>
+
+<h2>4. Compartilhamento com terceiros</h2>
+<p>
+Seus dados podem ser compartilhados apenas com parceiros diretamente envolvidos na prestação do serviço
+de energia compartilhada (como cooperativas e usinas parceiras), sempre com a finalidade de viabilizar
+sua adesão ao programa de economia.
+</p>
+
+<h2>5. Seus direitos como titular dos dados</h2>
+<p>De acordo com a LGPD, você tem direito a:</p>
+<ul>
+<li>Confirmar a existência de tratamento dos seus dados</li>
+<li>Acessar seus dados</li>
+<li>Corrigir dados incompletos, inexatos ou desatualizados</li>
+<li>Solicitar a exclusão dos seus dados, quando aplicável</li>
+<li>Revogar o consentimento a qualquer momento</li>
+</ul>
+
+<h2>6. Segurança dos dados</h2>
+<p>
+Adotamos medidas técnicas e organizacionais razoáveis para proteger seus dados pessoais contra acesso
+não autorizado, perda, alteração ou divulgação indevida.
+</p>
+
+<h2>7. Contato</h2>
+<p>
+Para exercer seus direitos ou tirar dúvidas sobre esta Política de Privacidade, entre em contato conosco:
+</p>
+<ul>
+<li>E-mail: contato@coopluz.com.br</li>
+<li>WhatsApp: (62) 99268-6860</li>
+</ul>
+
+<h2>8. Alterações nesta política</h2>
+<p>
+Esta Política de Privacidade pode ser atualizada periodicamente. Recomendamos que você a revise
+com regularidade para se manter informado sobre como protegemos seus dados.
+</p>
+
+</main>
+
+<footer>
+
+<div class="container footer">
+
+<div>
+<h3>CoopLuz</h3>
+<p>Energia inteligente para um futuro mais econômico e sustentável.</p>
+</div>
+
+<div>
+<h4>Contato</h4>
+<p>WhatsApp: (62) 99268-6860</p>
+<p>E-mail: contato@coopluz.com.br</p>
+</div>
+
+<div>
+<h4>Localização</h4>
+<p>Goiânia - GO</p>
+</div>
+
+</div>
+
+<div class="copy">
+<p>© 2026 CoopLuz - Todos os direitos reservados. | <a href="privacidade.html">Política de Privacidade</a></p>
+</div>
+
+</footer>
+
+</body>
+</html>
