@@ -14,6 +14,28 @@
 
 <meta name="author" content="CoopLuz">
 
+<link rel="canonical" href="https://economize-anv.pages.dev/">
+
+<!-- Geo (SEO local) -->
+<meta name="geo.region" content="BR-GO">
+<meta name="geo.placename" content="Goiânia">
+<meta name="ICBM" content="-16.6869, -49.2648">
+
+<!-- Open Graph (compartilhamento em redes sociais e WhatsApp) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://economize-anv.pages.dev/">
+<meta property="og:title" content="CoopLuz | Economize até 20% na Conta de Energia">
+<meta property="og:description" content="Economize até 20% na sua conta de energia com a CoopLuz. Sem instalar placas solares, sem investimento e com simulação gratuita.">
+<meta property="og:image" content="https://economize-anv.pages.dev/hero.jpg">
+<meta property="og:site_name" content="CoopLuz">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CoopLuz | Economize até 20% na Conta de Energia">
+<meta name="twitter:description" content="Economize até 20% na sua conta de energia com a CoopLuz. Sem instalar placas solares, sem investimento e com simulação gratuita.">
+<meta name="twitter:image" content="https://economize-anv.pages.dev/hero.jpg">
+
 <link rel="stylesheet" href="css/style.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,11 +63,11 @@
 
 <a href="#" class="logo">
 
-<img src="Icones/logo/logo-coopluz-header.png" alt="CoopLuz">
+<img src="Ícones/logo/logo-coopluz-header.png" alt="CoopLuz">
 
 </a>
 
-<ul>
+<ul id="menuLista">
 
 <li><a href="#inicio">Início</a></li>
 
@@ -66,6 +88,12 @@ Solicitar Simulação
 </li>
 
 </ul>
+
+<button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+<span></span>
+<span></span>
+<span></span>
+</button>
 
 </nav>
 
@@ -155,7 +183,10 @@ Como Funciona
 
 <div class="hero-img">
 
-<img src="hero.jpg" alt="Energia">
+<picture>
+<source media="(max-width: 768px)" srcset="hero-mobile.jpg">
+<img src="hero.jpg" alt="Família economizando na conta de energia com a CoopLuz">
+</picture>
 
 </div>
 
@@ -424,6 +455,56 @@ Após a adesão você passa a receber descontos mensais.
 </div>
 
 </section>
+<!-- PARA QUEM É -->
+
+<section class="segmentos" id="segmentos">
+
+<div class="container">
+
+<div class="titulo">
+
+<span>ATENDEMOS TODOS OS PERFIS</span>
+
+<h2>Energia mais barata para cada tipo de consumidor</h2>
+
+</div>
+
+<div class="grid-segmentos">
+
+<div class="segmento" style="background-image:url('imagens/residencia.jpg')">
+<div class="segmento-overlay">
+<h3>Residencial</h3>
+<p>Economia direto na conta de luz da sua casa.</p>
+</div>
+</div>
+
+<div class="segmento" style="background-image:url('imagens/empresa.jpg')">
+<div class="segmento-overlay">
+<h3>Empresarial</h3>
+<p>Reduza custos operacionais do seu negócio.</p>
+</div>
+</div>
+
+<div class="segmento" style="background-image:url('imagens/usina.jpg')">
+<div class="segmento-overlay">
+<h3>Industrial</h3>
+<p>Energia limpa para grandes consumidores.</p>
+</div>
+</div>
+
+<div class="segmento" style="background-image:url('imagens/agronegocio.jpg')">
+<div class="segmento-overlay">
+<h3>Agronegócio</h3>
+<p>Economia para propriedades rurais e usinas.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
 <!-- PARCEIROS -->
 
 <section class="parceiros" id="parceiros">
@@ -440,8 +521,13 @@ Após a adesão você passa a receber descontos mensais.
 
 <div class="logos">
 
+<a href="https://sicoobsecovicred.com.br/" target="_blank" rel="noopener">
 <img src="imagens/parceiro-sicoob.png" alt="Sicoob">
+</a>
+
+<a href="https://benic.com.br/" target="_blank" rel="noopener">
 <img src="imagens/parceiro-benic.png" alt="Benic">
+</a>
 
 </div>
 
@@ -619,15 +705,19 @@ Quero Economizar Agora
 
 <p>WhatsApp: (62) 99268-6860</p>
 
-<p>E-mail: contato@coopluz.com.br</p>
+<p>E-mail: contato@coopluz.eco.br</p>
+
+<p>Av. T4, nº 619, Ed. Buena Vista Office Design, Sala 1404/1405, Setor Bueno, Goiânia - GO</p>
 
 </div>
 
 <div>
 
-<h4>Localização</h4>
+<h4>Política e Termos</h4>
 
-<p>Goiânia - GO</p>
+<p><a href="privacidade.html">Política de Privacidade</a></p>
+
+<p><a href="termos.html">Termo de Uso</a></p>
 
 </div>
 
