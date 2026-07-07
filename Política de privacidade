@@ -66,7 +66,7 @@
 <nav>
 
 <a href="index.html" class="logo">
-<img src="Icones/logo/logo-coopluz-header.png" alt="CoopLuz">
+<img src="Ícones/logo/logo-coopluz-header.png" alt="CoopLuz">
 </a>
 
 <ul id="menuLista">
@@ -143,7 +143,7 @@ não autorizado, perda, alteração ou divulgação indevida.
 Para exercer seus direitos ou tirar dúvidas sobre esta Política de Privacidade, entre em contato conosco:
 </p>
 <ul>
-<li>E-mail: contato@coopluz.com.br</li>
+<li>E-mail: contato@coopluz.eco.br</li>
 <li>WhatsApp: (62) 99268-6860</li>
 </ul>
 
@@ -167,18 +167,20 @@ com regularidade para se manter informado sobre como protegemos seus dados.
 <div>
 <h4>Contato</h4>
 <p>WhatsApp: (62) 99268-6860</p>
-<p>E-mail: contato@coopluz.com.br</p>
+<p>E-mail: contato@coopluz.eco.br</p>
+<p>Av. T4, nº 619, Ed. Buena Vista Office Design, Sala 1404/1405, Setor Bueno, Goiânia - GO</p>
 </div>
 
 <div>
-<h4>Localização</h4>
-<p>Goiânia - GO</p>
+<h4>Política e Termos</h4>
+<p><a href="privacidade.html">Política de Privacidade</a></p>
+<p><a href="termos.html">Termo de Uso</a></p>
 </div>
 
 </div>
 
 <div class="copy">
-<p>© 2026 CoopLuz - Todos os direitos reservados. | <a href="privacidade.html">Política de Privacidade</a></p>
+<p>© 2026 CoopLuz - Todos os direitos reservados.</p>
 </div>
 
 </footer>
