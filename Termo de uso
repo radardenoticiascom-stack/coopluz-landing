@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Termo de Uso | CoopLuz</title>
+
+<meta name="description" content="Termo de Uso do site da CoopLuz - condições de uso da plataforma e dos serviços de simulação de economia de energia.">
+<meta name="robots" content="noindex, follow">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/x-icon" href="/icones/favicon.ico">
+<meta name="theme-color" content="#0b3d91">
+
+<style>
+.legal{
+    max-width:800px;
+    margin:auto;
+    padding:160px 20px 100px;
+    line-height:1.8;
+}
+.legal h1{
+    font-size:36px;
+    color:var(--verde);
+    margin-bottom:10px;
+}
+.legal .atualizado{
+    color:#777;
+    font-size:14px;
+    margin-bottom:40px;
+}
+.legal h2{
+    font-size:22px;
+    color:var(--texto);
+    margin-top:35px;
+    margin-bottom:12px;
+}
+.legal p, .legal li{
+    color:#444;
+    margin-bottom:12px;
+}
+.legal ul{
+    padding-left:22px;
+}
+.legal a{
+    color:var(--verde);
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+
+<nav>
+
+<a href="index.html" class="logo">
+<img src="Ícones/logo/logo-coopluz-header.png" alt="CoopLuz">
+</a>
+
+<ul id="menuLista">
+<li><a href="index.html">Voltar ao site</a></li>
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+<main class="legal">
+
+<h1>Termo de Uso</h1>
+<p class="atualizado">Última atualização: julho de 2026</p>
+
+<p>
+Este Termo de Uso regula o acesso e a utilização do site da CoopLuz. Ao navegar e utilizar
+nossos serviços, você concorda com as condições descritas abaixo.
+</p>
+
+<h2>1. Sobre a CoopLuz</h2>
+<p>
+A CoopLuz oferece um serviço de simulação e intermediação para adesão a programas de geração
+compartilhada de energia, permitindo que residências, empresas, indústrias e propriedades rurais
+economizem na conta de energia elétrica sem a necessidade de instalação de placas solares próprias.
+</p>
+
+<h2>2. Uso do site</h2>
+<p>Ao utilizar este site, você concorda em:</p>
+<ul>
+<li>Fornecer informações verdadeiras e atualizadas nos formulários de simulação e contato</li>
+<li>Não utilizar o site para fins ilícitos ou não autorizados</li>
+<li>Não tentar acessar áreas restritas ou comprometer a segurança da plataforma</li>
+</ul>
+
+<h2>3. Simulação de economia</h2>
+<p>
+Os valores apresentados na calculadora de economia são estimativas baseadas nas informações
+fornecidas pelo usuário e em médias de mercado. Os percentuais reais de economia podem variar
+de acordo com a análise de elegibilidade, a distribuidora de energia da região e outros fatores
+técnicos e contratuais, que serão detalhados durante o atendimento personalizado.
+</p>
+
+<h2>4. Propriedade intelectual</h2>
+<p>
+Todo o conteúdo deste site — incluindo textos, logotipos, imagens e código — é de propriedade
+da CoopLuz ou de seus licenciadores, sendo protegido por leis de propriedade intelectual.
+É proibida a reprodução, distribuição ou uso comercial sem autorização prévia.
+</p>
+
+<h2>5. Limitação de responsabilidade</h2>
+<p>
+A CoopLuz atua como intermediadora entre o consumidor e as usinas/cooperativas parceiras.
+Não nos responsabilizamos por instabilidades no fornecimento de energia por parte das
+distribuidoras locais, nem por eventuais indisponibilidades temporárias do site.
+</p>
+
+<h2>6. Alterações no serviço e neste termo</h2>
+<p>
+A CoopLuz pode alterar, suspender ou descontinuar qualquer parte do site ou dos serviços a
+qualquer momento. Este Termo de Uso também pode ser atualizado periodicamente, e recomendamos
+que você o revise com regularidade.
+</p>
+
+<h2>7. Legislação aplicável</h2>
+<p>
+Este Termo de Uso é regido pelas leis brasileiras. Eventuais disputas serão resolvidas no foro
+da comarca de Goiânia - GO.
+</p>
+
+<h2>8. Contato</h2>
+<p>Em caso de dúvidas sobre este Termo de Uso, entre em contato:</p>
+<ul>
+<li>E-mail: contato@coopluz.eco.br</li>
+<li>WhatsApp: (62) 99268-6860</li>
+</ul>
+
+</main>
+
+<footer>
+
+<div class="container footer">
+
+<div>
+<h3>CoopLuz</h3>
+<p>Energia inteligente para um futuro mais econômico e sustentável.</p>
+</div>
+
+<div>
+<h4>Contato</h4>
+<p>WhatsApp: (62) 99268-6860</p>
+<p>E-mail: contato@coopluz.eco.br</p>
+<p>Av. T4, nº 619, Ed. Buena Vista Office Design, Sala 1404/1405, Setor Bueno, Goiânia - GO</p>
+</div>
+
+<div>
+<h4>Política e Termos</h4>
+<p><a href="privacidade.html">Política de Privacidade</a></p>
+<p><a href="termos.html">Termo de Uso</a></p>
+</div>
+
+</div>
+
+<div class="copy">
+<p>© 2026 CoopLuz - Todos os direitos reservados.</p>
+</div>
+
+</footer>
+
+</body>
+</html>
