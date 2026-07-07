@@ -63,7 +63,7 @@
 
 <a href="#" class="logo">
 
-<img src="Ícones/logo/logo-coopluz-header.png" alt="CoopLuz">
+<img src="logo-coopluz-header.png" alt="CoopLuz">
 
 </a>
 
@@ -605,17 +605,24 @@ Após a adesão você passa a receber descontos mensais.
 
 <form id="leadForm">
 
-<input type="text" placeholder="Nome completo" required>
+<input type="hidden" name="access_key" value="7e2e920e-55ab-44f6-a196-fd0039af24ad">
+<input type="hidden" name="subject" value="Nova solicitação de simulação - Site CoopLuz">
+<input type="hidden" name="from_name" value="Site CoopLuz">
+<input type="checkbox" name="botcheck" style="display:none">
 
-<input type="text" placeholder="Cidade">
+<input type="text" name="nome" placeholder="Nome completo" required>
 
-<input type="email" placeholder="E-mail">
+<input type="text" name="cidade" placeholder="Cidade">
 
-<input type="tel" placeholder="WhatsApp" required>
+<input type="email" name="email" placeholder="E-mail">
 
-<textarea placeholder="Mensagem (opcional)"></textarea>
+<input type="tel" name="whatsapp" placeholder="WhatsApp" required>
+
+<textarea name="mensagem" placeholder="Mensagem (opcional)"></textarea>
 
 <button type="submit">Enviar Solicitação</button>
+
+<p id="formStatus" class="form-status"></p>
 
 </form>
 
@@ -740,4 +747,4 @@ Quero Economizar Agora
 <script src="js/main.js"></script>
 
 </body>
-</html>
+    </html>
