@@ -98,7 +98,7 @@ nav a:hover{
     color:#fff !important;
 }
 
-/* BotÃ£o hambÃºrguer (sÃ³ aparece no mobile) */
+/* Botão hambúrguer (só aparece no mobile) */
 .menu-toggle{
     display:none;
     flex-direction:column;
@@ -149,6 +149,7 @@ nav a:hover{
     grid-template-columns:1fr 1fr;
     gap:60px;
     align-items:center;
+    overflow:hidden;
 }
 
 .badge{
@@ -237,7 +238,7 @@ nav a:hover{
 }
 
 /* ======================================
-   BENEFÃCIOS
+   BENEFÍCIOS
 ====================================== */
 
 .beneficios{
@@ -431,6 +432,84 @@ nav a:hover{
 }
 
 /* ======================================
+   PARA QUEM É (SEGMENTOS)
+====================================== */
+
+.segmentos{
+    padding:90px 0;
+    background-image:url('fundo.jpg');
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.segmentos .titulo span{
+    color:var(--amarelo);
+}
+
+.segmentos .titulo h2{
+    color:#fff;
+}
+
+.grid-segmentos{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:24px;
+}
+
+.segmento{
+    position:relative;
+    height:280px;
+    border-radius:var(--radius);
+    background-size:cover;
+    background-position:center;
+    overflow:hidden;
+    box-shadow:var(--sombra);
+    transition:.35s;
+}
+
+.segmento:hover{
+    transform:translateY(-8px);
+}
+
+.segmento-overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(180deg,rgba(11,61,145,0) 40%,rgba(6,30,20,.92) 100%);
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    padding:24px;
+    color:#fff;
+}
+
+.segmento-overlay h3{
+    font-size:22px;
+    margin-bottom:6px;
+}
+
+.segmento-overlay p{
+    font-size:14px;
+    opacity:.9;
+}
+
+@media(max-width:992px){
+
+.grid-segmentos{
+grid-template-columns:1fr 1fr;
+}
+
+}
+
+@media(max-width:600px){
+
+.grid-segmentos{
+grid-template-columns:1fr;
+}
+
+}
+
+/* ======================================
    PARCEIROS
 ====================================== */
 
@@ -504,7 +583,7 @@ nav a:hover{
 }
 
 .faq-box details[open] summary::after{
-    content:"â€“";
+    content:"–";
 }
 
 .faq-box p{
@@ -514,7 +593,7 @@ nav a:hover{
 }
 
 /* ======================================
-   FORMULÃRIO DE CONTATO
+   FORMULÁRIO DE CONTATO
 ====================================== */
 
 .contato{
@@ -762,7 +841,7 @@ width:30px;
 }
 
 /* ======================================
-   ANIMAÃ‡Ã•ES
+   ANIMAÇÕES
 ====================================== */
 
 @keyframes fadeUp{
@@ -817,7 +896,7 @@ textarea:focus{
 }
 
 /* ======================================
-   SELEÃ‡ÃƒO DE TEXTO
+   SELEÇÃO DE TEXTO
 ====================================== */
 
 ::selection{
