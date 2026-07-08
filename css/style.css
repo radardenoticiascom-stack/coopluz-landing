@@ -437,7 +437,8 @@ nav a:hover{
 
 .segmentos{
     padding:90px 0;
-    background-image:url('imagens/fundo.jpg');
+    background-color:#0b3d24;
+    background-image:linear-gradient(rgba(11,61,36,.75),rgba(11,61,36,.75)),url('fundo.jpg');
     background-size:cover;
     background-position:center;
     position:relative;
@@ -445,10 +446,13 @@ nav a:hover{
 
 .segmentos .titulo span{
     color:var(--amarelo);
+    font-family:'Poppins',Arial,sans-serif;
 }
 
 .segmentos .titulo h2{
     color:#fff;
+    font-family:'Poppins',Arial,sans-serif;
+    font-weight:700;
 }
 
 .grid-segmentos{
