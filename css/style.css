@@ -169,6 +169,9 @@ nav a:hover{
     grid-template-columns:1fr 1fr;
     gap:60px;
 }
+.hero-img img{
+    max-width:520px;
+}
 }
 
 .badge{
@@ -248,12 +251,21 @@ nav a:hover{
 
 .hero-img{
     text-align:center;
+    width:100%;
+}
+
+.hero-img picture{
+    display:block;
+    width:100%;
 }
 
 .hero-img img{
-    max-width:520px;
+    max-width:100%;
+    width:100%;
+    height:auto;
     margin:auto;
     border-radius:var(--radius);
+    display:block;
 }
 
 /* ======================================
