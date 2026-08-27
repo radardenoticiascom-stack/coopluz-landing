@@ -223,25 +223,6 @@ nav a:hover{
     transform:translateY(-3px);
 }
 
-.parceiro-autorizado{
-    display:flex;
-    align-items:center;
-    gap:8px;
-    font-size:14px;
-    opacity:.85;
-    margin-bottom:30px;
-}
-
-.parceiro-autorizado i{
-    color:var(--amarelo);
-}
-
-footer .parceiro-autorizado{
-    margin-bottom:0;
-    margin-top:8px;
-    opacity:.7;
-}
-
 .btn-outline{
     border:2px solid #fff;
     color:#fff;
@@ -574,13 +555,17 @@ grid-template-columns:1fr;
 
 .logos{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
-    gap:40px;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:50px;
     align-items:center;
 }
 
 .logos img{
-    max-width:150px;
+    max-width:320px;
+    max-height:130px;
+    width:100%;
+    height:auto;
+    object-fit:contain;
     margin:auto;
     transition:.3s;
 }
