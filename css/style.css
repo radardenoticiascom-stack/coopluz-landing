@@ -405,9 +405,11 @@ nav a:hover{
     opacity:.7;
 }
 
-.resultado h1{
+.resultado .valor-resultado{
     color:var(--verde);
     font-size:30px;
+    font-weight:700;
+    margin:0;
 }
 
 .calc-right #whatsapp{
